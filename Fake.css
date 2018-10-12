@@ -76,7 +76,7 @@ div.clear {
 header {
     padding: 2.5em 0 0.5em;
     margin: 0 0 2.0em;
-    background:  url(img/abstract-hd-wallpaper.jpg) center 0px;
+    background:  url(img/abstract-hd-wallpaper.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     }
@@ -180,6 +180,13 @@ section#sidebar {
         padding: 1.7em 0.5em 2.0em 1.7em;
         border-right: black solid 5px;
     }
+
+    #button{
+        background-color:black;
+        color:grey;
+        border:1 solid white;
+        font-size: 19px;
+    }
     
 /*Main Section*/
 section #main {
@@ -216,12 +223,21 @@ section #main {
     right:16em;
     top: 130px;
 }
+#Tops3{
+    text-shadow: 5px 0 0 green, -2px 0 0 green, 0 2px 0 green, 0 -2px 0 green, 1px 1px green, -1px -1px 0 green, 1px -1px 0 green, -1px 1px 0 green;
+    font-size:20px;
+    margin-top:1px;
+    position:absolute;
+    padding-right:30px;
+    position:relative;
+    top:20px;
+}
 
    section div.panel{
     float:left;
     width: 250px;
     height: 200px;
-    margin: 0 0.5em 1.5em 1.5em;
+    margin: 0 0.5em 10em 1.5em;
     padding: 1.0em;
     position:relative;
     background-color: white;
@@ -229,10 +245,22 @@ section #main {
     border-radius: 0.6em;
     margin-left:30px;
    }
-   section div.panel img.cheeseType {
-    width: 50%;
-    height: 50%;
+   .Ordering{
+       background-color: transparent;
+       position:relative;
+       top:10px;
+       border-radius:15px;
    }
+
+   section div.panel img.cheeseType {
+    width: 100%;
+    height: 100%;
+   }
+   #textLine{
+       position:relative;
+       top:20px;
+   }
+
 /*Footer*/
 footer {
     background-color: #40362f;
